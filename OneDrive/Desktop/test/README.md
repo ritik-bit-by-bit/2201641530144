@@ -2,6 +2,20 @@
 
 A full-stack URL shortener application built with Node.js/Express backend and React frontend, featuring comprehensive logging, analytics, and Material UI design.
 
+## 🖼️ UI Overview
+
+### Create Short URLs Interface
+![Create Short URLs](screenshots/create-short-urls.png)
+*Create and manage multiple short URLs with custom validity periods and optional shortcodes*
+
+### URL History & Statistics
+![URL History](screenshots/url-history.png)
+*View all your shortened URLs with click statistics and expiration status*
+
+### Detailed Analytics
+![Detailed Stats](screenshots/detailed-stats.png)
+*Comprehensive analytics including click details, referrer information, and user agent data*
+
 ## Project Structure
 
 ```
@@ -25,23 +39,45 @@ A full-stack URL shortener application built with Node.js/Express backend and Re
 └── documentation/          # Project documentation
 ```
 
-## Features
+## ✨ Features
 
-### Backend API
+### 🎯 Core Functionality
+- **Bulk URL Creation** - Create up to 5 shortened URLs simultaneously with a single click
+- **Custom Validity Periods** - Set expiration times in minutes (default: 30 minutes)
+- **Custom Shortcodes** - Optionally specify your own shortcode for branded links
+- **Automatic Shortcode Generation** - System generates unique 6-character codes when not specified
+- **Real-time Expiration Tracking** - Visual indicators show when URLs are about to expire
+
+### 📊 Advanced Analytics & Tracking
+- **Comprehensive Click Statistics** - Track total clicks, last click time, and detailed click history
+- **Referrer Tracking** - Monitor where your traffic is coming from (Direct, Google, etc.)
+- **Geographic Data** - Location tracking for each click (Country, City)
+- **User Agent Analysis** - Detailed browser and device information for each visit
+- **Timestamp Logging** - Precise timing of every click with millisecond accuracy
+
+### 🎨 Modern User Interface
+- **Clean Material Design** - Professional purple and white color scheme
+- **Responsive Layout** - Works seamlessly on desktop and mobile devices
+- **Intuitive Navigation** - Easy switching between Create URLs and Statistics views
+- **Visual Status Indicators** - Color-coded buttons for expiration status and click counts
+- **Quick Access Sidebar** - Fast navigation between different shortened URLs
+
+### 🔧 Backend API Features
 - **POST /shorturls** - Create shortened URLs with custom validity and shortcodes
-- **GET /:shortcode** - Redirect to original URL with click tracking
-- **GET /shorturls/:shortcode** - Retrieve detailed statistics
-- **GET /health** - Health check endpoint
-- Custom logging middleware for comprehensive request/response tracking
-- In-memory storage with automatic cleanup of expired URLs
-- Robust error handling with appropriate HTTP status codes
+- **GET /:shortcode** - Redirect to original URL with comprehensive click tracking
+- **GET /shorturls/:shortcode** - Retrieve detailed statistics and analytics
+- **GET /health** - Health check endpoint for monitoring
+- **Custom Logging Middleware** - Comprehensive request/response tracking
+- **In-memory Storage** - Fast access with automatic cleanup of expired URLs
+- **Robust Error Handling** - Appropriate HTTP status codes and error messages
 
-### Frontend Application
-- **URL Shortener Page** - Create up to 5 URLs simultaneously
-- **Statistics Page** - View detailed analytics for created URLs
-- Material UI design with responsive layout
-- Client-side validation and error handling
-- Real-time statistics updates
+### 📱 Frontend Application Features
+- **Multi-URL Management** - Handle multiple URLs in a single interface
+- **Real-time Updates** - Statistics refresh automatically as clicks occur
+- **Copy-to-Clipboard** - One-click copying of shortened URLs
+- **URL Validation** - Client-side validation ensures proper URL format
+- **Expiration Warnings** - Visual alerts for URLs nearing expiration
+- **Click History Table** - Detailed tabular view of all click events
 
 ## Prerequisites
 

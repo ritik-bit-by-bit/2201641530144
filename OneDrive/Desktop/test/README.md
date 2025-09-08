@@ -5,7 +5,8 @@ A full-stack URL shortener application built with Node.js/Express backend and Re
 ## 🖼️ UI Overview
 
 ### Create Short URLs Interface
-<img src="[https://via.placeholder.com/800x600/6366f1/ffffff?text=Create+Short+URLs+Interface](https://drive.google.com/file/d/10IgANwXYyiRw2vqA77UW7K4WRJe925Ze/view?usp=sharing)" alt="Create Short URLs Interface" width="800"/>
+<img src="https://drive.google.com/uc?export=view&id=10IgANwXYyiRw2vqA77UW7K4WRJe925Ze" alt="Create Short URLs Interface" width="800"/>
+
 
 **Features shown:**
 - Bulk URL creation (up to 5 URLs simultaneously)
@@ -15,7 +16,7 @@ A full-stack URL shortener application built with Node.js/Express backend and Re
 - Clean Material UI design with purple theme
 
 ### URL History & Statistics
-<img src="https://via.placeholder.com/800x600/8b5cf6/ffffff?text=URL+History+%26+Statistics" alt="URL History and Statistics" width="800"/>
+<img src="https://drive.google.com/uc?export=view&id=1ODZ-sOIC-oQrZ6qkuGCO2rvNaBIPcFdL" alt="URL History and Statistics" width="800"/>
 
 **Features shown:**
 - Recent URLs display with click counts
@@ -25,7 +26,7 @@ A full-stack URL shortener application built with Node.js/Express backend and Re
 - Visual click tracking with chart icons
 
 ### Detailed Analytics Dashboard
-<img src="https://via.placeholder.com/800x600/06b6d4/ffffff?text=Detailed+Analytics+Dashboard" alt="Detailed Analytics Dashboard" width="800"/>
+<img src="https://drive.google.com/uc?export=view&id=1cOiBwbx0j9gNOCGHz-8Gsyl_SArlti-J" alt="Detailed Analytics Dashboard" width="800"/>
 
 **Features shown:**
 - Comprehensive click statistics

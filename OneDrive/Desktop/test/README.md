@@ -5,16 +5,35 @@ A full-stack URL shortener application built with Node.js/Express backend and Re
 ## 🖼️ UI Overview
 
 ### Create Short URLs Interface
-![Create Short URLs](screenshots/create-short-urls.png)
-*Create and manage multiple short URLs with custom validity periods and optional shortcodes*
+<img src="https://via.placeholder.com/800x600/6366f1/ffffff?text=Create+Short+URLs+Interface" alt="Create Short URLs Interface" width="800"/>
+
+**Features shown:**
+- Bulk URL creation (up to 5 URLs simultaneously)
+- Custom validity periods (30 minutes default)
+- Optional custom shortcodes
+- Add/remove URL fields dynamically
+- Clean Material UI design with purple theme
 
 ### URL History & Statistics
-![URL History](screenshots/url-history.png)
-*View all your shortened URLs with click statistics and expiration status*
+<img src="https://via.placeholder.com/800x600/8b5cf6/ffffff?text=URL+History+%26+Statistics" alt="URL History and Statistics" width="800"/>
 
-### Detailed Analytics
-![Detailed Stats](screenshots/detailed-stats.png)
-*Comprehensive analytics including click details, referrer information, and user agent data*
+**Features shown:**
+- Recent URLs display with click counts
+- Expiration status indicators ("Expires Soon")
+- Time-based sorting (1m ago, etc.)
+- Quick access to detailed statistics
+- Visual click tracking with chart icons
+
+### Detailed Analytics Dashboard
+<img src="https://via.placeholder.com/800x600/06b6d4/ffffff?text=Detailed+Analytics+Dashboard" alt="Detailed Analytics Dashboard" width="800"/>
+
+**Features shown:**
+- Comprehensive click statistics
+- Referrer tracking (Direct, Google, etc.)
+- Geographic location data
+- User agent information
+- Timestamp logging with precise timing
+- Quick access sidebar for URL navigation
 
 ## Project Structure
 

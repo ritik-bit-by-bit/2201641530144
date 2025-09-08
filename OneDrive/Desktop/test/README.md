@@ -5,7 +5,7 @@ A full-stack URL shortener application built with Node.js/Express backend and Re
 ## 🖼️ UI Overview
 
 ### Create Short URLs Interface
-<img src="https://via.placeholder.com/800x600/6366f1/ffffff?text=Create+Short+URLs+Interface" alt="Create Short URLs Interface" width="800"/>
+<img src="[https://via.placeholder.com/800x600/6366f1/ffffff?text=Create+Short+URLs+Interface](https://drive.google.com/file/d/10IgANwXYyiRw2vqA77UW7K4WRJe925Ze/view?usp=sharing)" alt="Create Short URLs Interface" width="800"/>
 
 **Features shown:**
 - Bulk URL creation (up to 5 URLs simultaneously)
